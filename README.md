@@ -4,3 +4,5 @@
 
 [x] flexbox
 [x] grid
+
+- [x] grid-template-column
