@@ -6,6 +6,8 @@ body {
   display: grid;
   gap: 5px;
   height: 50vh;
+  grid-template-columns: ;
+
   grid-template:
     "header header header header" 1fr
     "content content content nav" 2fr

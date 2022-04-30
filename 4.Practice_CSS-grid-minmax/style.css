@@ -1,0 +1,100 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  width: 100%;
+  height: 100vh;
+}
+
+.grid {
+  display: grid;
+  grid-auto-rows: 180px;
+}
+
+.grid:first-child {
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+}
+
+.cell {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.cell:nth-child(1) {
+  background-color: rgb(80, 80, 158);
+}
+
+.cell:nth-child(2) {
+  background-color: rgb(100, 142, 61);
+}
+
+.cell:nth-child(3) {
+  background-color: rgb(168, 165, 94);
+}
+
+.cell:nth-child(4) {
+  background-color: rgb(214, 149, 205);
+}
+
+.cell:nth-child(5) {
+  background-color: rgb(69, 147, 214);
+}
+
+.cell:nth-child(6) {
+  background-color: rgb(19, 226, 209);
+}
+
+.cell:nth-child(7) {
+  background-color: rgb(212, 116, 116);
+}
+
+.cell:nth-child(8) {
+  background-color: rgb(48, 48, 57);
+}
+
+.cell:nth-child(9) {
+  background-color: rgb(121, 187, 123);
+}
+
+.cell:nth-child(10) {
+  background-color: rgb(227, 124, 20);
+}
+
+.cell:nth-child(11) {
+  background-color: rgb(32, 230, 164);
+}
+
+.cell:nth-child(12) {
+  background-color: rgb(129, 122, 195);
+}
+
+.textbox-title {
+  font-size: medium;
+  text-align: center;
+}
+
+.textbox-author {
+  font-size: xx-small;
+  text-align: center;
+}
+
+.photo {
+  background-size: 110px;
+  width: 120px;
+  height: 180px;
+}
+
+.photo1 {
+  background-image: url("1.jpg");
+}
+.photo2 {
+  background-image: url("2.jpg");
+}
+.photo3 {
+  background-image: url("3.jpg");
+}
+.photo4 {
+  background-image: url("4.jpg");
+}
