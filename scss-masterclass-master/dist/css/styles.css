@@ -1,0 +1,15 @@
+body {
+  background: #e7473c;
+}
+h2 {
+  color: #e7473c;
+}
+.box {
+  margin-top: 20px;
+}
+.box h2 {
+  color: #00f;
+}
+.box button {
+  color: red;
+}
